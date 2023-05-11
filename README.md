@@ -10,3 +10,11 @@ Python programs that automate data processing, dataset generation and analysis t
 - Variable redundancy refers to the presence of similar families of variables, or clusters of highly correlated variables in a dataset. 
 - Similar variables do not contribute any significant predictive power to a model - hence there must be a way to eliminate these similar variables and select one variable from each cluster that best represents the cluster of similar variables. 
 - This is done using the VARIABLE CLUSTERING algorithm that uses Principal Component Analysis to create clusters of similar variables and then uses a ratio of within cluster and cross cluster correlation to determine the best representative variable in each cluster. 
+
+
+**3. INTERACTIVE_STRATIFIED_SAMPLING:** is an interactive python function that implements stratified sampling on your population dataset (
+can be used only for ML applications where response variable is binary). 
+- It first tells you the event rate in the population.
+- Then it asks you the total sample size you are looking for and the event rate you want in the sample. 
+- Then it asks you to enter the variable by which you want to stratify the sampling. 
+- Implements the sampling and provides the output sample data. 
