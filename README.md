@@ -18,3 +18,12 @@ can be used only for ML applications where response variable is binary).
 - Then it asks you the total sample size you are looking for and the event rate you want in the sample. 
 - Then it asks you to enter the variable by which you want to stratify the sampling. 
 - Implements the sampling and provides the output sample data. 
+
+
+**4. META_DATA_CALC:** is a python function that calculates essential meta data and summary information about your dataset. 
+- Before beginning any Data Science project, it is essential to know basic information like:
+  - Variable names 
+  - Data Types of the variables (how many numeric/character variables are present)
+  - Summary statistics of the numeric variables 
+  - Percentage of missing values in each variable 
+- All these measures are calculated using this function
