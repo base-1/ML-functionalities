@@ -1,5 +1,5 @@
-# ML-functionalities
-Python programs that automate data processing, dataset generation and analysis tasks 
+# Algorithms and Insights 
+This repository is designed to showcase my skills in developing Algorithms that extract insights from structured and unstructured data. Below is a description of each file contained in this repository 
 
 **1. Base_CREATE_DATASET:** is python program that generates a dataset using simulation 
 - meant for people who want to practice ML code on simulated datasets but do not want to go through the pain of generating a dataset from scratch
