@@ -1,9 +1,16 @@
 # Algorithms and Insights 
 This repository is designed to showcase my skills in developing Algorithms that extract insights from structured and unstructured data. Below is a description of each file contained in this repository 
 
+**1. 2019DMB02_AkashGupta_Dissertation:** is a document that describes my postgraduate dissertation project. 
+- Contains a description for Sentiment Analysis methodologies for analyzing product reviews on E-commerce platforms.
+- In this project, I developed algorithms for computation of sentiment intensity scores and sentiment 
+classification for text data. Concepts applied: Tokenization, Regular Expressions, word-
+vectorization, Sentiment Lexicons, Cosine similarity, N-gram analysis, Naïve Bayes 
+classification.
+
 **1. Base_CREATE_DATASET:** is python program that generates a dataset using simulation 
-- meant for people who want to practice ML code on simulated datasets but do not want to go through the pain of generating a dataset from scratch
-- simply call the create_dataset() function - answer a few basic questions that the program asks - and you have your dataset ready in a neat Pandas DataFrame format
+- Meant for people who want to practice ML code on simulated datasets but do not want to go through the pain of generating a dataset from scratch
+- Simply call the create_dataset() function - answer a few basic questions that the program asks - and you have your dataset ready in a neat Pandas DataFrame format
 
 
 **2. Base_VARIABLE_CLUSTERING:** is a python program that addresses the issue of variable redundancy in Machine Learning. 
